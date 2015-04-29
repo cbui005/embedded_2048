@@ -1,0 +1,23 @@
+
+Author: Calvin Bui
+Email: cbui005@ucr.edu
+
+The gameplay of 2048 is combining similar numbered tiles to get the combined 
+result. Each swipe in a certain direction would shift the entire grid in that 
+direction, combining like tiles and generating a random '2' tile every time 
+something moved. The goal was to eventually be able to combine numbers and reach 
+2048 (2^11) before all the grids filled up and no more moves were possible. 
+
+This was implemented and tested on a breadboard using the following parts:
+    Atmega1284 microcontroller
+    Nokia 5110 LCD screen
+    6 rgb anode leds
+    1 74HC59 shift register
+    Sparkfun TLC5940 PWM driver 
+    button inputs
+
+
+Credits: 
+    https://github.com/mcous/TLC5940
+    --driver for the TLC5940
+    
